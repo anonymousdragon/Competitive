@@ -1,3 +1,4 @@
+// CHEFADV
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -15,7 +16,7 @@ bool reducer(long long m,long long x)
       if(x<m)
         {
             if(x==1)
-               return true;              
+               return true;
             long long r = m%x;
             if(r==1)
               return true;
